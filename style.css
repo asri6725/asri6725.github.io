@@ -9,13 +9,17 @@ body{
 	margin-right: auto;
 	margin-top: 10%;
 	width: 50%;
-	background-color: rgba(173,216,230,0.8);
+	background-color: rgba(173,216,230,0.4);
 	width : 420px;
 	padding: 20px;
+	border-radius: 20%
 	
 }
 .dp{
 	text-align: center;
+}
+.profile-picture{
+	border-radius: 50%;
 }
 .box1{
 	width: 200px;
@@ -25,4 +29,11 @@ body{
 	width: 200px;
 	float: right;
 	padding: 20 px;
+}
+.button{
+	float: center;
+	text-align: center
+}
+.test_button{
+	border-radius :50%;
 }
