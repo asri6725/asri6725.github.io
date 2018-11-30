@@ -1,5 +1,7 @@
 body{
-	 background-image: url("bg1.jpg");
+	 background-image: url("img/background.jpg");
+	 background-repeat: repeat-x;
+	 background-size: 100% 100%
 }
 .wrapper{
 	display: block;
@@ -7,7 +9,7 @@ body{
 	margin-right: auto;
 	margin-top: 10%;
 	width: 50%;
-	background-color: #A9A9A9;
+	background-color: rgba(173,216,230,0.4);
 	width : 420px;
 	padding: 20px;
 	
