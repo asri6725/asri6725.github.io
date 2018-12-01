@@ -8,7 +8,6 @@ body{
 	margin-left: auto;
 	margin-right: auto;
 	margin-top: 10%;
-	width: 50%;
 	background-color: rgba(173,216,230,0.4);
 	width : 420px;
 	padding: 20px;
@@ -36,4 +35,13 @@ body{
 }
 .test_button{
 	border-radius :50%;
+}
+.snake{
+	height: 25%;
+	background: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+	text-align: center;
+	margin-top: 30px;
 }
