@@ -1,14 +1,16 @@
 body{
-	 background-image: url("img/background.jpg");
-	 background-repeat: repeat-x;
-	 background-size: 100% 100%;
-	 border-color: white;
+	background-color:rgb(173,216,230);
+}
+.mypart{
+	margin-top: 0;
+	background-image: url("img/background.jpg");
+	background-repeat: repeat-x;
+	background-size: 100% 100%;
 }
 .wrapper{
 	display: block;
 	margin-left: auto;
 	margin-right: auto;
-	margin-top: 10%;
 	background-color: rgba(173,216,230,0.4);
 	width : 420px;
 	padding: 20px;
@@ -18,6 +20,7 @@ body{
 	text-align: center;
 }
 .profile-picture{
+	margin-top: 10%
 	border-radius: 50%;
 }
 .box1{
@@ -37,6 +40,9 @@ body{
 	border-radius :50%;
 }
 .snake{
+	margin-bottom: 50px;
+	margin-top: 50px;
+	width: 420 px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -47,4 +53,13 @@ body{
 canvas {
     border: 1px solid white;
 	background-color: rgba(0,0,0,0.4);
-  }
+}
+.cyberowl{
+	width: 420 px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.pic{
+	text-align: center;
+}
