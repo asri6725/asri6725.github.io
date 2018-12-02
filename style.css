@@ -1,7 +1,8 @@
 body{
 	 background-image: url("img/background.jpg");
 	 background-repeat: repeat-x;
-	 background-size: 100% 100%
+	 background-size: 100% 100%;
+	 border-color: white;
 }
 .wrapper{
 	display: block;
@@ -11,8 +12,7 @@ body{
 	background-color: rgba(173,216,230,0.4);
 	width : 420px;
 	padding: 20px;
-	border-radius: 20%
-	
+	border-radius: 20%;
 }
 .dp{
 	text-align: center;
@@ -31,17 +31,20 @@ body{
 }
 .button{
 	float: center;
-	text-align: center
+	text-align: center;
 }
 .test_button{
 	border-radius :50%;
 }
 .snake{
-	height: 25%;
-	background: black;
     display: flex;
     align-items: center;
     justify-content: center;
-	text-align: center;
-	margin-top: 30px;
 }
+.desc{
+	text-align: center;
+}
+canvas {
+    border: 1px solid white;
+	background-color: rgba(0,0,0,0.4);
+  }
