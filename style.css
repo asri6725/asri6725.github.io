@@ -1,11 +1,12 @@
 body{
-	background-color:rgb(173,216,230);
 }
 .mypart{
 	margin-top: 0;
 	background-image: url("img/background.jpg");
 	background-repeat: repeat-x;
 	background-size: 100% 100%;
+	width:100%;
+	height:100%;
 }
 .wrapper{
 	display: block;
@@ -17,6 +18,9 @@ body{
 	border-radius: 20%;
 }
 .dp{
+	text-align: center;
+}
+.pic{
 	text-align: center;
 }
 .profile-picture{
@@ -54,12 +58,6 @@ canvas {
     border: 1px solid white;
 	background-color: rgba(0,0,0,0.4);
 }
-.cyberowl{
-	width: 420 px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-.pic{
-	text-align: center;
+.for{
+	float: right;
 }
