@@ -1,0 +1,68 @@
+body{
+}
+.mypart{
+	margin-top: 0;
+	background-image: url("img/background.jpg");
+	background-repeat: repeat-x;
+	background-size: 100% 100%;
+	position:fixed;
+    width:100%;
+    height:100%;
+    top:0px;
+    left:0px;
+    z-index:1000;
+}
+.wrapper{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	background-color: rgba(173,216,230,0.4);
+	width : 420px;
+	padding: 20px;
+	border-radius: 20%;
+}
+.dp{
+	text-align: center;
+}
+.pic{
+	text-align: center;
+}
+.profile-picture{
+	margin-top: 10%
+	border-radius: 50%;
+}
+.box1{
+	width: 200px;
+	padding: 20px;
+}
+.box2{
+	width: 200px;
+	float: right;
+	padding: 20 px;
+}
+.button{
+	float: center;
+	text-align: center;
+}
+.test_button{
+	border-radius :50%;
+}
+.snake{
+	margin-bottom: 50px;
+	margin-top: 50px;
+	width: 420 px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.desc{
+	text-align: center;
+}
+canvas {
+    border: 1px solid white;
+	background-color: rgba(0,0,0,0.4);
+}
+.for{
+	float: right;
+	bottom: 0%
+}
