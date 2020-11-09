@@ -3,7 +3,6 @@ import Projects from './projects';
 import Images from './Images';
 import profile from './files/Ellipse 1.png';
 import resume from './files/Resume.pdf';
-import top from './files/Top.svg'
 import React, { Component, createRef } from "react";
 
 export default class App extends Component {
@@ -21,16 +20,16 @@ export default class App extends Component {
   render(){
     return (
       <div className="Wrapper">
-          <div className="GeneralInfo" ref={this.scrollTop} style={{"display":"inline-block", "width":"90%"}}>
+          <div className="GeneralInfo" ref={this.scrollTop} style={{"display":"inline-block"}}>
             <img src={profile} alt="" style={{"height" : "10%", "width" : "10%", "overflow":"hidden"}}></img>
             <div style={{"float":"right", "width":"85%"}}>
-              <p style={{"font-size":"200%", "height":"auto"}}> Abhinandan Srinivas </p>
-              <p style={{"font-size":"150%", "height":"50%", "margin-bottom":"2%"}}> Software Developer </p>
-              <a href={resume} download className="SubHeadingButton" style={{"font-size":"120%", "padding":"1% 7%"}}> Resume </a>
+              <p style={{"fontSize":"200%", "height":"auto"}}> Abhinandan Srinivas </p>
+              <p style={{"fontSize":"150%", "height":"50%", "marginBottom":"2%"}}> Software Developer </p>
+              <a href={resume} download className="SubHeadingButton" style={{"fontSize":"120%", "padding":"1% 7%"}}> Resume </a>
             </div>
           </div> 
         <div className="Frameworks">
-          <p className="SubHeading">What I can use</p>
+          <p className="SubHeading">Can use</p>
           <Images />
         </div>
         <div ref={this.scrollDiv} style={{"height":"5000px"}} className="Projects">
