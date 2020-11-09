@@ -10,6 +10,9 @@ import html from './files/html.png';
 import nginx from './files/nginx.svg';
 import angular from './files/angular.png';
 import bootstrap from './files/bootstrap.svg';
+import node from './files/node.png'
+import adobe from './files/adobe-illustrator.png'
+import aws from './files/aws-ec2.svg'
 
 function Images(){
     return(
@@ -25,6 +28,9 @@ function Images(){
                 </div>
                 <div className="column">
                 <img src={html} alt="" className="imag"></img>
+                <img src={node} alt="" className="imag"></img>
+                <img src={aws} alt="" className="imag"></img>
+                <img src={adobe} alt="" className="imag"></img>
                 <img src={nginx} alt="" className="imag"></img>
                 <img src={angular} alt="" className="imag"></img>
                 <img src={bootstrap} alt="" className="imag"></img>
