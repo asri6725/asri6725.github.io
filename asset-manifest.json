@@ -1,29 +1,30 @@
 {
   "files": {
-    "main.css": "/static/css/main.a3f6d122.chunk.css",
-    "main.js": "/static/js/main.9cce9e1d.chunk.js",
-    "main.js.map": "/static/js/main.9cce9e1d.chunk.js.map",
-    "runtime-main.js": "/static/js/runtime-main.ea48bb22.js",
-    "runtime-main.js.map": "/static/js/runtime-main.ea48bb22.js.map",
-    "static/js/2.74061a11.chunk.js": "/static/js/2.74061a11.chunk.js",
-    "static/js/2.74061a11.chunk.js.map": "/static/js/2.74061a11.chunk.js.map",
-    "static/js/3.b97e3685.chunk.js": "/static/js/3.b97e3685.chunk.js",
-    "static/js/3.b97e3685.chunk.js.map": "/static/js/3.b97e3685.chunk.js.map",
+    "main.css": "/static/css/main.44d5eed9.chunk.css",
+    "main.js": "/static/js/main.c119541b.chunk.js",
+    "main.js.map": "/static/js/main.c119541b.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.2854dd0a.js",
+    "runtime-main.js.map": "/static/js/runtime-main.2854dd0a.js.map",
+    "static/js/2.7fcfd21d.chunk.js": "/static/js/2.7fcfd21d.chunk.js",
+    "static/js/2.7fcfd21d.chunk.js.map": "/static/js/2.7fcfd21d.chunk.js.map",
+    "static/js/3.189ed5e5.chunk.js": "/static/js/3.189ed5e5.chunk.js",
+    "static/js/3.189ed5e5.chunk.js.map": "/static/js/3.189ed5e5.chunk.js.map",
     "index.html": "/index.html",
-    "static/css/main.a3f6d122.chunk.css.map": "/static/css/main.a3f6d122.chunk.css.map",
-    "static/js/2.74061a11.chunk.js.LICENSE.txt": "/static/js/2.74061a11.chunk.js.LICENSE.txt",
+    "static/css/main.44d5eed9.chunk.css.map": "/static/css/main.44d5eed9.chunk.css.map",
+    "static/js/2.7fcfd21d.chunk.js.LICENSE.txt": "/static/js/2.7fcfd21d.chunk.js.LICENSE.txt",
     "static/media/Ellipse 1.922b9266.png": "/static/media/Ellipse 1.922b9266.png",
     "static/media/Resume.2161b8cb.pdf": "/static/media/Resume.2161b8cb.pdf",
     "static/media/adobe-illustrator.fa5b6329.png": "/static/media/adobe-illustrator.fa5b6329.png",
+    "static/media/anzapp.b35085c4.png": "/static/media/anzapp.b35085c4.png",
     "static/media/aws-ec2.914e0bd2.svg": "/static/media/aws-ec2.914e0bd2.svg",
     "static/media/bootstrap.997c463d.svg": "/static/media/bootstrap.997c463d.svg",
     "static/media/css3.8fba365c.svg": "/static/media/css3.8fba365c.svg",
     "static/media/nginx.aaccbe7b.svg": "/static/media/nginx.aaccbe7b.svg"
   },
   "entrypoints": [
-    "static/js/runtime-main.ea48bb22.js",
-    "static/js/2.74061a11.chunk.js",
-    "static/css/main.a3f6d122.chunk.css",
-    "static/js/main.9cce9e1d.chunk.js"
+    "static/js/runtime-main.2854dd0a.js",
+    "static/js/2.7fcfd21d.chunk.js",
+    "static/css/main.44d5eed9.chunk.css",
+    "static/js/main.c119541b.chunk.js"
   ]
 }
