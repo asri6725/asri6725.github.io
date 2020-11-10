@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/static/css/main.44d5eed9.chunk.css",
-    "main.js": "/static/js/main.c2dfca1f.chunk.js",
-    "main.js.map": "/static/js/main.c2dfca1f.chunk.js.map",
+    "main.js": "/static/js/main.9c7c544d.chunk.js",
+    "main.js.map": "/static/js/main.9c7c544d.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.2854dd0a.js",
     "runtime-main.js.map": "/static/js/runtime-main.2854dd0a.js.map",
     "static/js/2.7fcfd21d.chunk.js": "/static/js/2.7fcfd21d.chunk.js",
@@ -14,6 +14,7 @@
     "static/js/2.7fcfd21d.chunk.js.LICENSE.txt": "/static/js/2.7fcfd21d.chunk.js.LICENSE.txt",
     "static/media/Ellipse 1.922b9266.png": "/static/media/Ellipse 1.922b9266.png",
     "static/media/Resume.2161b8cb.pdf": "/static/media/Resume.2161b8cb.pdf",
+    "static/media/SydneyUniversity_MainBuilding_Panorama.8ae9245f.png": "/static/media/SydneyUniversity_MainBuilding_Panorama.8ae9245f.png",
     "static/media/adobe-illustrator.fa5b6329.png": "/static/media/adobe-illustrator.fa5b6329.png",
     "static/media/anzapp.b35085c4.png": "/static/media/anzapp.b35085c4.png",
     "static/media/aws-ec2.914e0bd2.svg": "/static/media/aws-ec2.914e0bd2.svg",
@@ -25,6 +26,6 @@
     "static/js/runtime-main.2854dd0a.js",
     "static/js/2.7fcfd21d.chunk.js",
     "static/css/main.44d5eed9.chunk.css",
-    "static/js/main.c2dfca1f.chunk.js"
+    "static/js/main.9c7c544d.chunk.js"
   ]
 }
