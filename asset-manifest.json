@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/static/css/main.62ff7747.chunk.css",
-    "main.js": "/static/js/main.b905c447.chunk.js",
-    "main.js.map": "/static/js/main.b905c447.chunk.js.map",
+    "main.css": "/static/css/main.2c68d12b.chunk.css",
+    "main.js": "/static/js/main.8cb0559c.chunk.js",
+    "main.js.map": "/static/js/main.8cb0559c.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.2854dd0a.js",
     "runtime-main.js.map": "/static/js/runtime-main.2854dd0a.js.map",
     "static/js/2.396ee980.chunk.js": "/static/js/2.396ee980.chunk.js",
@@ -10,7 +10,7 @@
     "static/js/3.189ed5e5.chunk.js": "/static/js/3.189ed5e5.chunk.js",
     "static/js/3.189ed5e5.chunk.js.map": "/static/js/3.189ed5e5.chunk.js.map",
     "index.html": "/index.html",
-    "static/css/main.62ff7747.chunk.css.map": "/static/css/main.62ff7747.chunk.css.map",
+    "static/css/main.2c68d12b.chunk.css.map": "/static/css/main.2c68d12b.chunk.css.map",
     "static/js/2.396ee980.chunk.js.LICENSE.txt": "/static/js/2.396ee980.chunk.js.LICENSE.txt",
     "static/media/Ellipse 1.922b9266.png": "/static/media/Ellipse 1.922b9266.png",
     "static/media/Resume.2161b8cb.pdf": "/static/media/Resume.2161b8cb.pdf",
@@ -26,7 +26,7 @@
   "entrypoints": [
     "static/js/runtime-main.2854dd0a.js",
     "static/js/2.396ee980.chunk.js",
-    "static/css/main.62ff7747.chunk.css",
-    "static/js/main.b905c447.chunk.js"
+    "static/css/main.2c68d12b.chunk.css",
+    "static/js/main.8cb0559c.chunk.js"
   ]
 }
