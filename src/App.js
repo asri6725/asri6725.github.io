@@ -1,42 +1,57 @@
 import './App.css';
-import Projects from './projects';
-import Images from './Images';
-import profile from './files/Ellipse 1.png';
-import resume from './files/Resume.pdf';
 import React, { Component, createRef } from "react";
+import Progress from './Progress';
+import Contact from './Contact';
+import Home from './Home';
+import Project from './Project';
+import About from './About';
+/* Projects below */
+
 
 export default class App extends Component {
   scrollDiv = createRef();
+  scrollAbout = createRef();
+  scrollHome = createRef();
+  scrollContact = createRef();
 
-  scrollSmoothHandler = () => {
-    this.scrollDiv.current.scrollIntoView({ behavior: "smooth" });
+  scrollToContact = () =>{
+    this.scrollContact.current.scrollIntoView({behavior:"smooth"});
+  }
+  scrollToHome = () =>{
+    this.scrollHome.current.scrollIntoView({ behavior: "smooth" });
+  }
+
+  scrollToAbout = () => {
+    this.scrollAbout.current.scrollIntoView({ behavior: "smooth" });
   };
 
-  scrollTop = createRef();
-  scrollTopHandler = () => {
-    this.scrollTop.current.scrollIntoView({ behavior: "smooth" });
-  };
+  scrollToProjects = () => {
+    this.scrollDiv.current.scrollIntoView({behavior:"smooth"});
+  }
 
   render(){
     return (
       <div className="Wrapper">
-          <div className="GeneralInfo" ref={this.scrollTop} style={{"display":"inline-block"}}>
-            <img src={profile} alt="" style={{"height" : "10%", "width" : "10%", "overflow":"hidden"}}></img>
-            <div style={{"float":"right", "width":"85%"}}>
-              <p style={{"fontSize":"200%", "height":"auto"}}> Abhinandan Srinivas </p>
-              <p style={{"fontSize":"150%", "height":"50%", "marginBottom":"2%"}}> Software Developer </p>
-              <a href={resume} download className="SubHeadingButton" style={{"fontSize":"120%", "padding":"1% 7%"}}> Resume </a>
-            </div>
-          </div> 
-        <div className="Frameworks">
-          <p className="SubHeading">Can use</p>
-          <Images />
+        <div className="navbar">
+          <Progress home={this.scrollToHome} about={this.scrollToAbout} projects={this.scrollToProjects} contact = {this.scrollToContact} />
         </div>
-        <div ref={this.scrollDiv} style={{"height":"5000px"}} className="Projects">
-          <button className="SubHeadingButton" onClick={this.scrollSmoothHandler}> Some of my projects </button>
-          <Projects />
+        
+        <div className="Card" ref={this.scrollHome}>
+          <Home />
+        </div> 
+        
+        <div className="Card" ref={this.scrollDiv}>
+          <Project />
         </div>
-        {/* <div className="Top" onClick={this.scrollTopHandler}><img src={top} alt="back to top"></img></div> */}
+        
+        <div className="Card" ref= {this.scrollContact}>
+            <Contact />
+        </div>
+        
+        <div className="Card" ref={this.scrollAbout}>
+          <About />
+        </div>
+        
       </div>
     );
   }
