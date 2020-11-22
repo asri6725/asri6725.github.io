@@ -1,0 +1,29 @@
+.HomeWrap{
+    background: #FFD791;
+    width: 90%;
+    height: 100vh;
+    overflow: auto;
+    padding-top: 20%;
+    padding-left: 10%;
+}
+.HomeLogo{
+    position: absolute;
+    width: 30%;
+    height: 30%;
+    left: 60%;
+    top: 25vh;
+    
+}
+.HomeText{
+    font-family: Roboto;
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 75px;
+    letter-spacing: 0em;
+    text-align: left;
+
+}
+.HomeTextColor{
+    color: #234E98;
+}

@@ -31,9 +31,10 @@ export default class Progress extends Component{
         return(
             <div className = "progressbar">
                 <a  onClick={this.scrollToHome}>Home</a>
+                <a  onClick={this.scrollToAbout}> About </a>
                 <a   onClick={this.scrollToProjects}> Projects </a>
                 <a onClick={this.scrollToContact}> Contact </a>
-                <a  onClick={this.scrollToAbout}> About </a>
+                
             </div>
         );
         }

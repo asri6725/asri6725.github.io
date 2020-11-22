@@ -1,20 +1,19 @@
 import ReactTypingEffect from 'react-typing-effect';
-import profile from './files/Ellipse 1.png';
-import resume from './files/Resume.pdf';
-
+import user from './files/user.svg';
+import "./Home.css";
 function Home(){
     return(
-        <div>
-          <img src={profile} alt="" style={{"height" : "10%", "width" : "10%", "overflow":"hidden"}} className="profileimg"></img>
-          <div style={{"float":"right", "width":"85%"}}>
-          <a className="SecondaryButton" href="https://github.com/asri6725/" rel="noopener noreferrer" target="_blank" style={{"float":"right", "width":"15%"}}> GitHub </a>
-            <p className="MainTitle"> Abhinandan Srinivas </p>
+        <div className="HomeWrap">
+          <div className="HomeLogo">
+            <img src={user} alt="logo" />
+          </div>
+          <div className="HomeText">
             <div>
-              <ReactTypingEffect text="Software Developer" style={{"font-size": "150%"}} eraseDelay={20000} className="FloatText"/>
+              <ReactTypingEffect text="Hello," />
             </div>
-            <br />
-            <br />
-            <a href={resume} download className="SecondaryButton" rel="noopener noreferrer" target="_blank"> Resume </a>
+            <div>
+              I am <span className="HomeTextColor">Abhi</span>nandan.
+            </div>
           </div>
         </div>
     )

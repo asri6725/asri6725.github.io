@@ -10,10 +10,10 @@ class Contact extends Component{
     render(){
         return(
             <div>
-                <div className="SubHeading">
-                    <p> Contact </p>
+                <div styles={{"margin-left":"10%"}}>
+                    <p className="ContactHeading"> Contact </p>
                 </div>
-                <div>
+                <div className="Card">
                     <form  action="https://formspree.io/f/mgepzzee" method="POST">
                     <p className="text"> To </p> 
                     <a href="mailto:abhinandan.srinivas@gmail.com?Subject=&body=" rel="noopener noreferrer" target="_blank" className="mailCss">abhinandan.srinivas@gmail.com</a>

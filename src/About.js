@@ -1,28 +1,42 @@
-import uni from './files/SydneyUniversity_MainBuilding_Panorama.png';
-import Images from './Images';
-
+import profile from './files/profile.png';
+import './About.css';
 function About(){
     return(
-        <div>
+        <div className="AboutWrap">
             <div>
-                <p className="SubTitle"> About </p>
+                    <p className="AboutHeading"> About </p>
+                 </div>
+        
+            <div className="Graphic">
+                <div className="AboutImage">
+                    <img src={profile} alt="profile" />
+                </div>
+
+                
             </div>
 
-            <div className="Frameworks" style={{"float":"right"}} >
-                <p className="SubHeading"> The University of Sydney </p>
-                <p className="text">
-                Bachelor of Computer Science and Technology
-                </p>
-                <p>
-                2016 s1 to 2020 s2
-                </p>
-                <img src={uni} alt="The University of Sydney" style={{"height":"10%", "width":"100%"}}/>
+            <div className="AboutText">
+                
+                <div>
+                    <p className="text">
+                        I am a graduate from The University of Sydney studying Bachelors of Compputer Science and IT (CS major).
+                        <br />
+                        <br />
+                        I generally like everything related to programming, but have put a lot of more work in web design
+                        and development. Where I specialise in using React on the frontend and Python on the backend.
+                    </p>
+                </div>
+                <div className="Button">
+                <div className="AboutButton" style={{"float":"right"}}>
+                    <a className="SecondaryButton" href="https://github.com/asri6725/" rel="noopener noreferrer" target="_blank">
+                         GitHub 
+                    </a>
+                </div>
+                
+                <div className="AboutButton"><a className="SecondaryButton"> Resume </a></div> 
+                </div>
             </div>
-            <div className="Frameworks">
-                <p className="SubHeading">Frameworks, Technologies, and Services</p>
-                <Images />
-            </div>
-            </div>
+        </div>
     )
 };
 export default About;

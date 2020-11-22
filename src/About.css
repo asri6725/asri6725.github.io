@@ -1,0 +1,32 @@
+.AboutWrap{
+    padding: 5%;
+}
+.AboutHeading{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 48px;
+    line-height: 56px;
+    display: flex;
+    align-items: center;
+    border-bottom: 7px solid #9F7833;
+    width: 10%;
+}
+.AboutText{
+    width: 40%;
+}
+.Graphic{
+    width: 40%;
+    float: right;
+}
+
+.AboutImage{
+    border-radius: 50%;
+    display: none;
+}
+.AboutButton{
+    width: 40%;
+}
+.ButtonWrapper{
+
+    margin-top: 20%;
+}

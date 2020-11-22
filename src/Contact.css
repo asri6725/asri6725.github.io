@@ -1,7 +1,7 @@
 .mailCss{
     text-decoration: none;
     font-size: 125%;
-    color: rgba(19, 19, 19, 0.97);
+    color:#234E98;
 }
 
 input[type=text] {
@@ -20,4 +20,19 @@ input[type=text] {
     font-size: 125%;
     color: rgba(44, 44, 44, 0.97);
     font-family: Arial, Helvetica, Franklin Gothic Medium, Century Gothic  ;
+}
+
+.ContactHeading{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 48px;
+    line-height: 56px;
+    display: flex;
+    align-items: center;
+    border-bottom: 7px solid #9F7833;
+    width: 15%;
+    margin-left: 4%;
+}
+.butto{
+    color:#234E98;
 }

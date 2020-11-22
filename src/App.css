@@ -9,10 +9,11 @@
 
 .navbar{
     overflow: hidden;
-    background-color: #333;
+    background-color: #9F7833;
     position: fixed;
     top: 0;
     width: 100%;
+    opacity: 100%;
 }
 .navbar a {
     float: left;
@@ -25,8 +26,8 @@
 }
   
 .navbar a:hover {
-    background: #ddd;
-    color: black;
+    background: #5481D1;
+    color: white;
 }
 
 .Card{
@@ -126,7 +127,6 @@
 .SecondaryButton{
     font-size: 200%;
     font-weight: 400;
-    background-color: #FFFFFF;
     text-align: center;
     width: 100%;
     border: none;
@@ -134,14 +134,17 @@
     transition: 0.3s;
     text-decoration: none;
     font-weight: lighter;
-    color: rgba(0, 0, 0, 0.97);
+    color: white;
     border: 2px solid #e7e7e7; 
     font-size:120%;
     padding:1% 7%;
+
+    background: #5481D1;
+    border-radius: 30px;
 }
 .SecondaryButton:hover{
-    background-color: black;
-    color: #FFFFFF;
+    background-color: #FFFFFF;
+    color: #5481D1;
 }
 
 @media screen and (max-width : 700px)

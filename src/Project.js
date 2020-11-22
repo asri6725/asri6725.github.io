@@ -41,7 +41,7 @@ export default class Project extends Component{
 
 
         <div>
-          <button className="SecondaryButton" onClick={this.showProjects}> Hide the Projects </button>
+          <button className="SecondaryButton" onClick={this.showProjects}> Hide some Projects </button>
         </div>
       </div>
     ):(
@@ -51,11 +51,10 @@ export default class Project extends Component{
     );
     
     return(
-          <div>
-            <div className="Project">
-              <p className="SubTitle" > Some of my projects </p>
-            </div>
+          <div className="ProjectWrapper">
             
+            <p className="ProjectHeading" > Projects </p>
+        
             <div className="Card">
               <Westmead />
             </div>

@@ -36,22 +36,22 @@ export default class App extends Component {
           <Progress home={this.scrollToHome} about={this.scrollToAbout} projects={this.scrollToProjects} contact = {this.scrollToContact} />
         </div>
         
-        <div className="Card" ref={this.scrollHome}>
+        <div className="" ref={this.scrollHome}>
           <Home />
         </div> 
-        
-        <div className="Card" ref={this.scrollDiv}>
-          <Project />
-        </div>
-        
-        <div className="Card" ref= {this.scrollContact}>
-            <Contact />
-        </div>
-        
-        <div className="Card" ref={this.scrollAbout}>
+
+        <div className="" ref={this.scrollAbout}>
           <About />
         </div>
         
+        <div className="" ref={this.scrollDiv}>
+          <Project />
+        </div>
+        
+        <div className="" ref= {this.scrollContact}>
+            <Contact />
+        </div>
+
       </div>
     );
   }
