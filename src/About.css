@@ -20,8 +20,11 @@
 }
 
 .AboutImage{
+    margin-left: 10%;
     border-radius: 50%;
-    display: none;
+    width: 40%;
+    height: 50%;
+    top: 0;
 }
 .AboutButton{
     width: 40%;
@@ -29,4 +32,24 @@
 .ButtonWrapper{
 
     margin-top: 20%;
+}
+
+
+@media screen and (max-width : 700px)
+{
+ 
+.AboutImage{
+   display: none;
+    }
+
+.Graphic{
+    width: 100%;
+    float: right;
+    display: none;
+    }
+
+.AboutText{
+    width: 100%;
+    }
+
 }

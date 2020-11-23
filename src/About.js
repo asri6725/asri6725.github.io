@@ -1,40 +1,36 @@
 import profile from './files/profile.png';
 import './About.css';
+import Resume from './files/Abhinandan Resume.pdf';
 function About(){
     return(
         <div className="AboutWrap">
-            <div>
-                    <p className="AboutHeading"> About </p>
-                 </div>
+            
         
             <div className="Graphic">
-                <div className="AboutImage">
-                    <img src={profile} alt="profile" />
-                </div>
+                <img src={profile} alt="profile" className="AboutImage" />
 
-                
+                <br />
+                <br />
+                <div className="buttonpos">
+                    <a className="SecondaryButton" href="https://github.com/asri6725/" rel="noopener noreferrer" target="_blank"> GitHub </a>
+                    <a className="SecondaryButton" href={Resume} rel="noopener noreferrer" target="_blank"> Resume </a>
+                </div>    
             </div>
 
             <div className="AboutText">
-                
+                <div>
+                    <p className="AboutHeading"> About </p>
+                </div>
+
                 <div>
                     <p className="text">
-                        I am a graduate from The University of Sydney studying Bachelors of Compputer Science and IT (CS major).
-                        <br />
-                        <br />
-                        I generally like everything related to programming, but have put a lot of more work in web design
-                        and development. Where I specialise in using React on the frontend and Python on the backend.
+                    I am a recent graduate who is looking to break into development.
+                    I am good with the full stack of web development, primarily working with React, Python and an SQL database.
+                    <br /><br />
+                    I hold a Bachelors of Computer Science and IT (Comp Sci major) from the University of Sydney and well, thats about all about me.
                     </p>
                 </div>
-                <div className="Button">
-                <div className="AboutButton" style={{"float":"right"}}>
-                    <a className="SecondaryButton" href="https://github.com/asri6725/" rel="noopener noreferrer" target="_blank">
-                         GitHub 
-                    </a>
-                </div>
                 
-                <div className="AboutButton"><a className="SecondaryButton"> Resume </a></div> 
-                </div>
             </div>
         </div>
     )
