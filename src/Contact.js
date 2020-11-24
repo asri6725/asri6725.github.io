@@ -4,7 +4,7 @@ import autosize from 'autosize';
 
 class Contact extends Component{
     componentDidMount(){
-        this.textarea.focus();
+        
         autosize(this.textarea);
      }
     render(){
