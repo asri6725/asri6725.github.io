@@ -9,14 +9,15 @@
     display: flex;
     align-items: center;
     border-bottom: 7px solid #9F7833;
-    width: 10%;
+    width: 25%;
 }
 .AboutText{
     width: 40%;
+    overflow-wrap: break-word;
 }
 .Graphic{
-    width: 40%;
     float: right;
+    width: 40%;
 }
 
 .AboutImage{
@@ -24,7 +25,6 @@
     border-radius: 50%;
     width: 40%;
     height: 50%;
-    top: 0;
 }
 .AboutButton{
     width: 40%;

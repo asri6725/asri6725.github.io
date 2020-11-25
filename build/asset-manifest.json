@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/static/css/main.ddc9e272.chunk.css",
-    "main.js": "/static/js/main.f4d8538f.chunk.js",
-    "main.js.map": "/static/js/main.f4d8538f.chunk.js.map",
+    "main.css": "/static/css/main.0c10fafb.chunk.css",
+    "main.js": "/static/js/main.fb32ed51.chunk.js",
+    "main.js.map": "/static/js/main.fb32ed51.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.438146a3.js",
     "runtime-main.js.map": "/static/js/runtime-main.438146a3.js.map",
     "static/js/2.bb8f9362.chunk.js": "/static/js/2.bb8f9362.chunk.js",
@@ -10,9 +10,9 @@
     "static/js/3.29cd471b.chunk.js": "/static/js/3.29cd471b.chunk.js",
     "static/js/3.29cd471b.chunk.js.map": "/static/js/3.29cd471b.chunk.js.map",
     "index.html": "/index.html",
-    "static/css/main.ddc9e272.chunk.css.map": "/static/css/main.ddc9e272.chunk.css.map",
+    "static/css/main.0c10fafb.chunk.css.map": "/static/css/main.0c10fafb.chunk.css.map",
     "static/js/2.bb8f9362.chunk.js.LICENSE.txt": "/static/js/2.bb8f9362.chunk.js.LICENSE.txt",
-    "static/media/Abhinandan Resume.23f863cf.pdf": "/static/media/Abhinandan Resume.23f863cf.pdf",
+    "static/media/Abhinandan Srivinas Resume.f5824b87.pdf": "/static/media/Abhinandan Srivinas Resume.f5824b87.pdf",
     "static/media/css3.8fba365c.svg": "/static/media/css3.8fba365c.svg",
     "static/media/figma.88134f53.png": "/static/media/figma.88134f53.png",
     "static/media/profile.10e7da50.png": "/static/media/profile.10e7da50.png",
@@ -23,7 +23,7 @@
   "entrypoints": [
     "static/js/runtime-main.438146a3.js",
     "static/js/2.bb8f9362.chunk.js",
-    "static/css/main.ddc9e272.chunk.css",
-    "static/js/main.f4d8538f.chunk.js"
+    "static/css/main.0c10fafb.chunk.css",
+    "static/js/main.fb32ed51.chunk.js"
   ]
 }
