@@ -17,7 +17,7 @@ function Westmead(){
             </div>
             <div className="Description">
                 <p className="text">
-                    Built a Mobile Application to display Hospital ED data.
+                During this time, I completed a Mobile Application Development Internship at Western Sydney Local Health Service via Westmead Hospital. In a team of 5, we developed a new mobile application to allow emergency department services to monitor logistical data. With end-to-end project delivery and collaboration, I was responsible for React & Python coding, front/back-end testing and quality control.    
                 </p>
                 <div className="">
                     <img src={react} alt="react logo" className="logo"/>

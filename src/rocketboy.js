@@ -14,7 +14,7 @@ function Rocketboy(){
             </div>
             <div className="Description">
                 <p className="text">
-                    Designed a webapp for a pizza shop to help order prep. Select the 
+                In this role, I developed a web page with React Java Script to help replace manual ordering of ingredients. The webpage was mobile responsive and staff could use it via a mobile device. It reduced the time spent counting stock and generated an email/message for the manager to place an order. <br /><br /> You just select the 
                     mode of messaging (iPhopne message/andriod message/mail/whatsapp), click on the item, select the number
                     and send. The content of the page can be managed using <a href="https://docs.google.com/spreadsheets/d/1EWPjrXH7BGoqE_sKH2Jn-Av5Kgf4nB5JRtZEgj4e8f4/edit#gid=0" rel="noopener noreferrer" target="_blank">google sheets</a>.
                 </p>

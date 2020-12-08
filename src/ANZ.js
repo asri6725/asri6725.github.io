@@ -14,9 +14,7 @@ function ANZ(){
             </div>
             <div className="Description">
                 <p className="text">
-                    As a part of a multi-disciplinary team, I looked at the technical implications of open banking.
-                    During the course of the internship, I performed a full and thourough design cycle based on the requirements
-                    of the team members and analysed its technical implications.
+                During this time, I proposed an open banking application for ANZ and delivered a feasibility study conducting sound theoretical research, developing proptotypes, proof of concept design and design justifications for UI and UX.     
                 </p>
                 <div className="">
                     <img src={figma} alt="react logo" className="logo"/>

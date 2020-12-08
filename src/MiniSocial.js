@@ -10,6 +10,8 @@ function MiniSocial(){
             </div>
             <div className="Description">
                 <p className="text"> Used the Bottle framework in Python to build a mini social media website where users can post questions, comments, and send messages. With simple front end using Vanilla HTML, CSS and JavaScript; and the SQLite Database.</p>
+                <br />
+                <p className="text"> It hasn't got the best UX, but it accomplishes all the tasks! </p>
                 <div className="">
                     <img src={python} alt="python logo" className="logo"/>
                     <img src={html} alt="html logo" className="logo"/>
@@ -18,6 +20,7 @@ function MiniSocial(){
                 </div>
                 <div className="buttonpos">
                 <a className="SecondaryButton" href="https://github.com/asri6725/mini-socialmedia" rel="noopener noreferrer" target="_blank" style={{"width":"15%"}}> GitHub Code </a>
+                <a className="SecondaryButton" href="http://3.17.26.232:3000/" rel="noopener noreferrer" target="_blank" style={{"width":"15%"}}> Try It! </a>
                 </div>
             </div>
         </div>

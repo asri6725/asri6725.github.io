@@ -13,8 +13,9 @@ function Saemushi(){
             </div>
             <div className="Description">
                 <p className="text">
-                I am currently interning as a frontend developer at Saemushi contrbuting to their new project set 
-                to release in 2021. 
+               
+Saemushi are a digital product studio who create seamless digital solutions. I am completing an Angular Development Internship delivering front-end agile development solutions via Angular utilising effective HTML/CSS coding practices.
+
                 </p>
                 <div className="">
                     <img src={angular} alt="react logo" className="logo"/>
