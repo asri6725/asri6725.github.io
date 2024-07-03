@@ -1,0 +1,55 @@
+.AboutWrap{
+    padding: 5%;
+}
+.AboutHeading{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 48px;
+    line-height: 56px;
+    display: flex;
+    align-items: center;
+    border-bottom: 7px solid #9F7833;
+    width: 25%;
+}
+.AboutText{
+    width: 40%;
+    overflow-wrap: break-word;
+}
+.Graphic{
+    float: right;
+    width: 40%;
+}
+
+.AboutImage{
+    margin-left: 10%;
+    border-radius: 5%;
+    width: 40%;
+    height: 50%;
+}
+.AboutButton{
+    width: 40%;
+}
+.ButtonWrapper{
+
+    margin-top: 20%;
+}
+
+
+@media screen and (max-width : 700px)
+{
+ 
+.AboutImage{
+   display: none;
+    }
+
+.Graphic{
+    width: 100%;
+    float: right;
+    display: none;
+    }
+
+.AboutText{
+    width: 100%;
+    }
+
+}

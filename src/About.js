@@ -1,4 +1,4 @@
-import profile from './files/profile.png';
+import profile from './files/profile.jpeg';
 import './About.css';
 import Resume from './files/Abhinandan Srivinas Resume.pdf';
 function About(){
